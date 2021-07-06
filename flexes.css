@@ -1,0 +1,50 @@
+.my-flex-container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:800px){
+    .my-flex-container-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .my-flex-container-2 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+@media screen and (max-width:800px){
+    .my-top-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:800px){
+    .my-top-container {
+        display: flex;
+        flex-direction: row;
+        width:100%;
+    }
+}
+
+.my-flex-item{
+    flex: 1 1 0;
+}
+
+.my-flex-item-image{
+    flex-basis: 80%;
+}
+
+.my-flex-item-text{
+    flex-basis: 20%;
+}
+
+

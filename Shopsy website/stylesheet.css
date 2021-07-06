@@ -1,0 +1,150 @@
+body {
+	font-family: "Arial";
+}
+
+li {
+	list-style: none;
+	color: white;
+}
+
+.header {
+	background-color: #523bd9;
+	height: 90px;
+}
+
+.shopsy-logo {
+	padding-top: 25px;
+	padding-right: 5px;
+	float: left;
+}
+
+.shopsy-name {
+	padding-top: 35px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+.shopsy-Flipkart {
+	font-size: 10px;
+	opacity: 0.4;
+}
+
+.get-it{
+	float: right;
+	margin-right: 100px;
+	border: 2px;
+	margin-top: 35px;
+	font-size: 15px;
+	border: 2px solid white;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	border-radius: 3px;
+	text-align: center;
+	transition-duration: 0.4s;
+	display: inline-block;
+	cursor: pointer;
+	background-color: #523bd9;
+	color: white;
+	opacity: 0.5;
+}
+
+.video {
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+	border: 10px solid #523bd9;
+	border-radius: 5px;
+}
+
+.start-text {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 2px;
+	font-size: 30px;
+}
+
+.first {
+	background-color: #523bd9;
+	height: 350px;
+	color: white;
+	padding-top: 20px;
+	padding-left: 100px;
+}
+
+.first-list {
+	opacity: 0.8;
+	text-align: left;
+}
+
+.download-now {
+	background-color: #F1CA05;
+	border: 2px solid #F1CA05;
+	border-radius: 4px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin-top: 20px;
+	padding: 5px;
+	margin-left: 3px;
+	display: inline-block
+}
+
+.playstore-logo {
+	float: left;
+	padding-top: 15px;
+	margin-right: 3px;
+}
+
+.second {
+	height: 600px;
+	background-color: #f05d8e;
+}
+
+.third {
+	height: 450px;
+	background-color: #523bd9;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.third-title {
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+.item {
+	float: left;
+	width: 33%;
+	list-style: none;
+}
+
+.item-icon {
+	position: relative;
+}
+
+.item-icon p {
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	color: yellow;
+	padding-top: 10px;
+	font-size: 25px;
+}
+
+.contents {
+	width: 80%;
+	display: inline-block;
+	margin-top: 70px;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+
+
+
