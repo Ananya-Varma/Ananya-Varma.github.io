@@ -1,6 +1,6 @@
 
 body {
-	font-family: "Roboto";
+	font-family: Roboto;
 }
 
 li {
@@ -15,28 +15,28 @@ li {
 
 @media screen and (min-width:450px) {
 	.shopsy-logo img {
-		padding-top: 2vh;
-		padding-right: 5px;
+		margin-top: 3vh;
+		margin-left: 3vw;
 		padding-bottom: 1vh;
 		float: left;
 		height:10vh;
-		width:8vh;
+		width:9vh;
 	}
 }
 
 @media screen and (max-width:450px) {
 	.shopsy-logo img {
-		padding-top: 2vh;
+		margin-top: 3vh;
+		margin-left: 3vw;
 		padding-bottom: 1vh;
 		float: left;
 		height:10vh;
-		width:8vh;
-		
+		width:9vh;
 	}
 }
 
 	.shopsy-name {
-		padding-top: 2vh;
+		padding-top: 3.5vh;
 		padding-right: 5px;
 		font-weight: bold;
 		font-size: 5vh;
@@ -52,15 +52,13 @@ li {
 
 .get-it{
 	float: right;
-	/* margin-left: 85vw; */
-	margin-right:5vw;
+	margin-right:7vw;
 	border: 2px;
-	margin-top: 2.5vh;
+	margin-top: 3vh;
 	font-size: 3.5vh;
 	border: 2px solid rgb(189, 181, 181);
-	padding-right: 2.5vh;
-	padding-left: 2.5vh;
-	border-radius: 5px;
+	padding: 0.5vh 1.5vw;
+	border-radius: 1vh;
 	text-align: center;
 	transition-duration: 0.4s;
 	display: inline-block;
@@ -82,11 +80,41 @@ button:hover {
 	border-radius: 5px;
 }
 
-.start-text {
-	color: white;
-	font-weight: bold;
-	padding: 2px;
-	font-size: 35px;
+@media screen and (min-width:800px) {
+	.start-text {
+		color: white;
+		font-weight: bold;
+		font-size: 60px;
+		margin-top: 5vw; 
+		margin-left: 10vw;
+	}
+	
+	.first-list {
+		text-align: left;
+		color: white;
+		font-size: 20px;
+		margin-left: 20vh;
+	}
+	
+	.download-now {
+		margin-left: 10vw;
+	}
+	
+}
+
+@media screen and (max-width:800px) {
+	.start-text {
+		padding-top: 5vh;
+		color: white;
+		font-weight: bold;
+		font-size: 8vh;
+	}
+	
+	.first-list {
+		color: white;
+		font-size: 3vh;
+	}
+	
 }
 
 .first {
@@ -97,10 +125,6 @@ button:hover {
 	padding-left: 100px;
 }
 
-.first-list {
-	text-align: left;
-	color: white;
-}
 
 .download-now {
 	background-color: #F8C752;
