@@ -8,6 +8,10 @@ li {
 	color: white;
 }
 
+button {
+	cursor: pointer;
+}
+
 .header {
 	background-color: #503CEB;
 	height: 15vh;
