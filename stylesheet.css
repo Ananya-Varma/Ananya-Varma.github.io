@@ -1,6 +1,6 @@
 
 body {
-	font-family: Roboto;
+	font-family: Arial;
 }
 
 li {
@@ -87,21 +87,14 @@ button:hover {
 @media screen and (min-width:800px) {
 	.start-text {
 		color: white;
-		font-weight: bold;
-		font-size: 60px;
-		margin-top: 5vw; 
-		margin-left: 10vw;
+		font-weight: 600;
+		font-size: 4vw;
 	}
 	
 	.first-list {
 		text-align: left;
 		color: white;
-		font-size: 20px;
-		margin-left: 20vh;
-	}
-	
-	.download-now {
-		margin-left: 10vw;
+		font-size: 1.5vw;
 	}
 	
 }
