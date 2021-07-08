@@ -111,12 +111,12 @@ button:hover {
 		padding-top: 5vh;
 		color: white;
 		font-weight: bold;
-		font-size: 8vh;
+		font-size: 8vw;
 	}
 	
 	.first-list {
 		color: white;
-		font-size: 3vh;
+		font-size: 3vw;
 	}
 	
 }
@@ -138,7 +138,6 @@ button:hover {
 	cursor: pointer;
 	margin-top: 20px;
 	padding: 5px 10px;
-	display: inline-block
 }
 
 .playstore-logo {
