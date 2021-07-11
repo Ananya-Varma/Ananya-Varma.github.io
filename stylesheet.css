@@ -101,15 +101,17 @@ button:hover {
 
 @media screen and (max-width:800px) {
 	.start-text {
-		padding-top: 5vh;
+		padding-top: 10vw;
 		color: white;
 		font-weight: bold;
-		font-size: 8vw;
+		font-size: 10vw;
+		line-height:10vw;
 	}
 	
 	.first-list {
 		color: white;
-		font-size: 3vw;
+		font-size: 7vw;
+		line-height:7vw;
 	}
 	
 }
@@ -123,15 +125,34 @@ button:hover {
 }
 
 
-.download-now {
-	background-color: #F8C752;
-	border: 2px solid #F8C752;
-	border-radius: 4px;
-	transition-duration: 0.4s;
-	cursor: pointer;
-	margin-top: 20px;
-	padding: 5px 10px;
+
+@media screen and (min-width:800px) {
+	.download-now {
+		background-color: #F8C752;
+		border: 2px solid #F8C752;
+		border-radius: 4px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		margin-top: 20px;
+		padding: 5px 10px;
+	}
 }
+
+@media screen and (max-width:800px) {
+	.download-now {
+		background-color: #F8C752;
+		border: 1.25vw solid #F8C752;
+		border-radius: 2vw;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		/* margin-top: 20px; */
+		/* display: flex;
+		align-items: center;
+		justify-content: center; */
+	}
+}
+
+
 
 .playstore-logo {
 	float: left;
