@@ -17,7 +17,7 @@ button {
 	height: 15vh;
 }
 
-@media screen and (min-width:450px) {
+@media screen and (min-width:800px) {
 	.shopsy-logo img {
 		margin-top: 3vh;
 		margin-left: 3vw;
@@ -26,18 +26,6 @@ button {
 		height:10vh;
 		width:9vh;
 	}
-}
-
-@media screen and (max-width:450px) {
-	.shopsy-logo img {
-		margin-top: 3vh;
-		margin-left: 3vw;
-		padding-bottom: 1vh;
-		float: left;
-		height:10vh;
-		width:9vh;
-	}
-}
 
 	.shopsy-name {
 		padding-top: 3.5vh;
@@ -54,23 +42,90 @@ button {
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
-.get-it{
-	float: right;
-	margin-right:7vw;
-	border: 2px;
-	margin-top: 3vh;
-	font-size: 3.5vh;
-	border: 2px solid rgb(189, 181, 181);
-	padding: 0.5vh 1.5vw;
-	border-radius: 1vh;
-	text-align: center;
-	transition-duration: 0.4s;
-	display: inline-block;
-	cursor: pointer;
-	background-color: transparent;
-	color: white;
-	opacity: 1;
 }
+
+@media screen and (max-width:800px) {
+	.shopsy-logo {
+		margin-top: 3vw;
+		margin-left: 3vw;
+		padding-bottom: 3vw;
+		float: left;
+		height:17.5vw;
+		width:35vw;
+	}
+
+	
+	.shopsy-name {
+		padding-top: 7vw;
+		padding-right: 5vw;
+		font-weight: bold;
+		font-size: 6vw;
+		/* font-family: Arial, Helvetica, sans-serif; */
+		color:white;
+		border-style:dashed;
+	}
+
+	.shopsy-Flipkart {
+		opacity: 0.8;
+		font-size: 5vw;
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left:10vw;
+		border-style:dashed;
+	}
+
+
+
+}
+
+
+@media screen and (min-width:450px) {
+
+	.get-it{
+		float: right;
+		margin-right:7vw;
+		border: 2px;
+		margin-top: 3vh;
+		font-size: 3.5vh;
+		border: 2px solid rgb(189, 181, 181);
+		padding: 0.5vh 1.5vw;
+		border-radius: 1vh;
+		text-align: center;
+		transition-duration: 0.4s;
+		display: inline-block;
+		cursor: pointer;
+		background-color: transparent;
+		color: white;
+		opacity: 1;
+	}
+	
+}
+
+
+@media screen and (max-width:450px) {
+
+	.get-it{
+		float: right;
+		margin-right:7vw;
+		border: 2px;
+		margin-top: 5vw;
+		font-size: 4.8vw;
+		border: 2.3px solid rgb(179, 178, 178);
+		padding: 0.3vw 3.3vw;
+		border-radius: 2.5vw;
+		text-align: center;
+		transition-duration: 0.4s;
+		display: inline-block;
+		cursor: pointer;
+		background-color: transparent;
+		color: white;
+		opacity: 1;
+	}
+	
+}
+
+
+
 
 button:hover {
 	opacity: 1.0;
@@ -104,14 +159,14 @@ button:hover {
 		padding-top: 10vw;
 		color: white;
 		font-weight: bold;
-		font-size: 10vw;
-		line-height:10vw;
+		font-size: 12vw;
+		line-height:12vw;
 	}
 	
 	.first-list {
 		color: white;
-		font-size: 7vw;
-		line-height:7vw;
+		font-size: 6.5vw;
+		line-height:3vw;
 	}
 	
 }
