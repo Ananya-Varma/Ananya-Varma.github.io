@@ -1,493 +1,355 @@
 <!doctype html>
 <html lang="en" class="animated fadeIn">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- <link rel="icon" href="favicon.ico"> -->
-
     <title>Shopsy.in</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
-    <link href="flexes.css" rel="stylesheet">
-    <link href="stylesheet.css" rel="stylesheet">
-    <link href="my-css.css" rel="stylesheet">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles-phone.css" rel="stylesheet">
+    <link href="css/styles-desktop.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
 
-    <div style=" background-color:#4f3be9">
-      <div class="header disable-on-phone" style="height:15vh; background-color:#4f3be9">
-        <button class="get-it"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >GET IT</button>
-        <!-- <div style="margin-top:0px; border-style:dashed; width:10vw; height:10vh; padding:1vh;"> -->
-        <img src="nav-bar-logo-2.svg" style="margin-top:1vw; margin-left:4vw;" >
+<!-- Div-1 and Navbar for desktop -->
+
+    <div class="div-header">
+      <div class="div-navbar disable-on-phone">
+        <button class="div-navbar-get-it"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >GET IT</button>
+        <img src="nav-bar-logo-2.svg" class="div-navbar-logo" >
       </div>
 
-      <div class="w-100 disable-on-phone desktop-gradient" style="background: linear-gradient(0deg, rgba(255, 90, 95, 0.3) -0.23%, rgba(0, 0, 0, 0) 99.77%), #503CEB; height:85vh; padding: 8% 10%;">
-        <div style=" width:50%; float:left; height:100%; padding:1% 5%;">
-          <p class="start-text">Start your own <br />online business</p>
-          <p class="first-list"><img src="tick.png" height=30vw width=30vw><b>  Zero</b> Investement</p>
-          <p class="first-list"><img src="tick.png" height=30vw width=30vw>  Earn <b>₹ 30,000</b> per month</p>
-          <button  class="download-now-div-1" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" style="margin:1% 0;" >
-            <img src="download-now-nav-bar.svg" style="height:100%; width:100%;">
+      <div class="w-100 disable-on-phone div-1-desktop-gradient div-1">
+        <div class="div-1-text">
+          <p class="div-1-start-text">Start your own <br />online business</p>
+          <p class="div-1-first-list"><img src="images/tick.png" height=30vw width=30vw><b>  Zero</b> Investment</p>
+          <p class="div-1-first-list"><img src="images/tick.png" height=30vw width=30vw>  Earn <b>₹ 30,000</b> per month</p>
+          <button  class="div-1-download-now-button" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >
+            <img src="download-now-nav-bar.svg" class="div-1-download-now-image">
           </button>
         </div>
-        <div style=" background-color:transparent; width:50%;  float:right; height:100%; padding: 2vw 1vw;"> 
-          <iframe src="https://www.youtube.com/embed/shg5Uh6qNqY" style="height: 19.6875vw; width: 35vw; border-style: transparent; border-radius: 30px 30px 30px 30px; ">
+        <div class="div-1-video-div">
+          <iframe src="https://www.youtube.com/embed/shg5Uh6qNqY" class="div-1-video">
           </iframe>
         </div>
       </div>
     </div>
 
+<!-- Div-1 and Navbar for phone -->
 
-    <div style=" background-color:#4f3be9">
-      <div class="header disable-on-desktop" style="height:35vw; border: 1px solid #4f3be9; background-color:#4f3be9">
-        <button class="get-it"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >GET IT</button>
-        <img src="nav-bar-logo-2.svg" class="shopsy-logo" >
+    <div class="div-header">
+      <div class="div-navbar disable-on-desktop">
+        <button class="div-navbar-get-it"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >GET IT</button>
+        <img src="nav-bar-logo-2.svg" class="div-navbar-logo" >
       </div>
-      
-      <div class="disable-on-desktop " style="border-style:hidden; border: 0px solid #503CEB; height:185vw; background-color:#503CEB">
-        <div style=" padding:0vw 0vw; height:80vw; width:100%;  ">
-          <div style="padding:1=0vw 0vw; height: 70vw;">
-            <p class="start-text" style="text-align: center; ">Start your<br> own online<br> business</p>
-            <br>
-            <p class="first-list" ><img src="tick.png" height=25vw width=25vw ><b> Zero</b> Investment</p>
-            <p class="first-list"><img src="tick.png" height=25vw width=25vw > Earn <b>₹ 30,000</b> per month</p>
-          </div>
+
+      <div class="disable-on-desktop " class="div-1">
+        <div class="div-1-text">
+          <p class="div-1-start-text">Start your<br> own online<br> business</p>
+          <br>
+          <p class="div-1-first-list"><img src="images/tick.png" height=25vw width=25vw ><b> Zero</b> Investment</p>
+          <p class="div-1-first-list"><img src="images/tick.png" height=25vw width=25vw > Earn <b>₹ 30,000</b> per month</p>
         </div>
-        <div style=" height:35vw; margin-bottom:5vw; padding-bottom:5vw; text-align:center; margin-top:5vw;">
-          <button  class="download-now-div-1" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" style="margin:1% 5%;" >
-            <img src="download-now-nav-bar.svg" style="height:100%; width:100%;">
+        <div class="div-1-download-now-div">
+          <button  class="div-1-download-now-button" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" style="margin:1% 5%;" >
+            <img src="download-now-nav-bar.svg" class="div-1-download-now-image">
           </button>
         </div>
-        <div style="height:60vw; width:100%;  " class="mobile-gradient">
-          <div style=" height:45vw; width:80vw;  background-color:transparent; margin-bottom:15vh; margin:auto"> 
-            <iframe src="https://www.youtube.com/embed/shg5Uh6qNqY" style="height: 100%; width: 100%; border: 3px solid pink; border-radius: 5vw 5vw 5vw 5vw; filter: drop-shadow(10px 10px 10px black);">
+        <div class="div-1-mobile-gradient">
+          <div class="div-1-video-div">
+            <iframe src="https://www.youtube.com/embed/shg5Uh6qNqY" class="div-1-video">
         </iframe>
           </div>
         </div>
       </div>
     </div>
 
+<!-- Div-2 for desktop -->
 
+    <div class="div-2">
 
+      <div class="disable-on-phone div-2-top" >
 
-
-
-
-
-
-
-
-<div style="background-color:#ff6065">
-
-  <div class="disable-on-phone" >
-    <div style="width:100%; display:flex; ">
-      <div style="background-color: #FF6065; width:25%; padding-top:5%;" class="disable-on-phone">
-        <div style=" width: 66%; height: 32vw; margin:auto; "> 
-          <img src="assets/res/browsing scroll.gif" style="height: 100%; width: 100%; border: 5px solid #f8c752; border-radius: 20px; filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5)); ">
+        <div class="disable-on-phone div-2-container">
+          <div class="div-2-container-image-container">
+            <img src="assets/res/browsing scroll.gif" class="div-2-container-image">
+          </div>
+          <div class="p-5 div-2-text">
+            <h1 class="div-2-text-heading"><b>BROWSE</b></h1>
+            <p class="div-2-text-content">The largest selection<br> of products from most<br> trusted suppliers.</p>
+          </div>
         </div>
-        <div class="p-5" style="margin-top:8%;">
-          <h1 style="color:white; text-align:center; font-size:3vw; padding-bottom: 1vh; "><b>BROWSE</b></h1>
-          <p style="color:white; text-align:center; font-size:1.3vw; line-height:1.5vw;">The largest selection<br> of products from most<br> trusted suppliers.</p>
+
+        <div class="disable-on-phone div-2-container">
+          <div class="div-2-container-image-container">
+            <img src="assets/res/shopsy share 2.gif" class="div-2-container-image">
+          </div>
+          <div class="p-5 div-2-text">
+            <h1 class="div-2-text-heading"><b>SHARE</b></h1>
+            <p class="div-2-text-content">On WhatsApp,<br> Facebook, Instagram,<br> and more</p>
+          </div>
+        </div>
+
+        <div class="disable-on-phone div-2-container">
+          <div class="div-2-container-image-container" >
+            <img src="assets/res/order.png" class="div-2-container-image">
+          </div>
+          <div class="p-5 div-2-text" >
+            <h1 class="div-2-text-heading"><b>ORDER</b></h1>
+            <p class="div-2-text-content">On behalf of the<br> customers</p>
+          </div>
+        </div>
+
+        <div class="disable-on-phone div-2-container">
+          <div class="div-2-container-image-container">
+            <img src="assets/res/earn.png" class="div-2-container-image">
+          </div>
+          <div class="p-5 div-2-text" >
+            <h1 class="div-2-text-heading"><b>EARN</b></h1>
+            <p class="div-2-text-content">Profit margins on sale<br> of every item</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="disable-on-phone div-2-bottom">
+        <div class="div-2-bottom-container">
+          <button class="div-2-bottom-button" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >GET SHOPSY</button>
         </div>
       </div>
 
-        <div style="background-color: #FF6065; width:25%; padding-top:5%;" class="disable-on-phone">
-          <div style=" width: 66%; height: 32vw; margin:auto; "> 
-            <img src="assets/res/shopsy share 2.gif" style="height: 100%; width: 100%; border: 5px solid #f8c752; border-radius: 20px; filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5)); ">
+    </div>
+
+<!-- Div-2-1 for phone -->
+
+    <div class="disable-on-desktop div-2-1" >
+      <div class="div-2-1-bg-img-1" data-aos="zoom-out-left" >
+        <img src="assets/res/browse-2.png" class="div-2-1-bg-img">
+      </div>
+      <div class="div-2-1-bg-img-2" data-aos="fade-right" >
+        <img src="assets/res/browse-1.png" class="div-2-1-bg-img">
+      </div>
+      <div class="div-2-1-bg-img-3" data-aos="fade-down">
+        <img src="assets/res/browse-3.png" class="div-2-1-bg-img">
+      </div>
+      <div class="div-2-text">
+        <h1 class="div-2-1-text-heading"><b>BROWSE</b></h1>
+        <p class="div-2-1-text-content">The largest selection of products<br> from most trusted suppliers.</p>
+      </div>
+      <div class="div-2-button-container-1">
+        <div class="div-2-button-container-2">
+          <button class="div-2-1-button"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
+        </div>
+      </div>
+      <div class="div-2-image-container" data-aos="fade-down">
+        <img src="assets/res/browsing scroll.gif" class="div-2-1-image">
+      </div>
+    </div>
+
+<!-- Div-2-2 for phone -->
+
+    <div class="disable-on-desktop div-2-2">
+      <div class="div-2-2-bg-img-1">
+        <img src="assets/res/share-2.png" class="div-2-2-bg-img-1-style">
+      </div>
+      <div class="div-2-2-bg-img-2">
+        <img src="assets/res/share-1.png" class="div-2-2-bg-img-2-style">
+      </div>
+      <div class="div-2-2-bg-img-3">
+        <img src="assets/res/share-3.png" class="div-2-2-bg-img-3-style">
+      </div>
+      <div class="div-2-text">
+        <h1 class="div-2-2-text-heading"><b>SHARE</b></h1>
+        <p class="div-2-2-text-content">On WhatsApp, Facebook,<br> Instagram, and more</p>
+      </div>
+      <div class="div-2-button-container-1">
+        <div class="div-2-button-container-2">
+          <button class="div-2-2-button"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
+        </div>
+      </div>
+      <div class="div-2-image-container" data-aos="fade-down">
+        <img src="assets/res/shopsy share 2.gif" class="div-2-2-image">
+      </div>
+    </div>
+
+<!-- Div-2-3 for phone -->
+
+    <div class="disable-on-desktop div-2-3">
+	    <div class="div-2-3-bg-img-1" >
+        <img src="assets/res/order-2.png" class="div-2-3-bg-img-1-style">
+      </div>
+      <div class="div-2-3-bg-img-2">
+        <img src="order-1.PNG" class="div-2-3-bg-img-2-style">
+      </div>
+      <div class="div-2-3-bg-img-3">
+        <img src="assets/res/order-3.png" class="div-2-3-bg-img-3-style">
+      </div>
+      <div class="div-2-text">
+        <h1 class="div-2-3-text-heading"><b>ORDER</b></h1>
+        <p class="div-2-3-text-content">On behalf of the<br> customers</p>
+      </div>
+      <div class="div-2-button-container-1">
+        <div class="div-2-button-container-2">
+          <button class="div-2-3-button"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
+        </div>
+      </div>
+      <div class="div-2-image-container" data-aos="fade-down">
+        <img src="assets/res/order.png" class="div-2-3-image">
+      </div>
+    </div>
+
+<!-- Div-2-4 for phone -->
+
+    <div class="disable-on-desktop div-2-4">
+	    <div class="div-2-4-bg-img-1" >
+        <img src="assets/res/earn-2.png" class="div-2-4-bg-img-1-style">
+      </div>
+      <div class="div-2-4-bg-img-2">
+        <img src="assets/res/earn-1.png" class="div-2-4-bg-img-2-style">
+      </div>
+      <div class="div-2-4-bg-img-3">
+        <img src="assets/res/earn-3.png" class="div-2-4-bg-img-3-style">
+      </div>
+      <div class="div-2-text">
+        <h1 class="div-2-4-text-heading"><b>EARN</b></h1>
+        <p class="div-2-4-text-content">Profit margins on sale of<br> every item</p>
+      </div>
+      <div class="div-2-button-container-1">
+        <div class="div-2-button-container-2">
+          <button class="div-2-4-button" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
+        </div>
+      </div>
+      <div class="div-2-image-container" data-aos="fade-down">
+        <img src="assets/res/earn.png" class="div-2-4-image">
+      </div>
+    </div>
+
+<!-- Div-3 for desktop -->
+
+    <div class="div-3">
+      <div class="disable-on-phone div-3-heading-container">
+        <h1 class="div-3-heading"><b>WHY SHOPSY?</b></h1>
+      </div>
+        <div class="d-md-flex flex-md-equal w-100 disable-on-phone">
+          <div class="text-center disable-on-phone">
+            <div class="div-3-img-container-1">
+              <img src="why-shopsy-01.png" class="div-3-image-1" data-aos="flip-right">
+            </div>
+            <div class="div-3-text-container-1">
+              <h2 class="div-3-text-heading">Wide Selection</h2>
+              <i class="div-3-text-content"> <b> 15 crore+ </b><br/> product listings</i>
+            </div>
           </div>
-          <div class="p-5" style="margin-top:8%;">
-            <h1 style="color:white; text-align:center; font-size:3vw; padding-bottom: 1vh; "><b>SHARE</b></h1>
-            <p style="color:white; text-align:center; font-size:1.3vw; line-height:1.5vw;">On WhatsApp,<br> Facebook, Instagram,<br> and more</p>
+          <div class="text-center disable-on-phone div-3-main-container">
+            <div class="div-3-img-container-2"  >
+              <img src="why-shopsy-02.png" class="div-3-image-2" data-aos="flip-right">
+            </div>
+            <div class="div-3-text-container-2">
+              <h2 class="div-3-text-heading">Trusted Suppliers</h2>
+              <i class="div-3-text-content"><b>1 Lakh+</b> trusted <br/>Flipkart suppliers</i>
+            </div>
+          </div>
+          <div class="text-center disable-on-phone div-3-main-container">
+            <div class="div-3-img-container-3">
+              <img src="why-shopsy-03.png" class="div-3-image-3" data-aos="flip-right">
+            </div>
+            <div class="div-3-text-container-3">
+              <h2 class="div-3-text-heading">Reliable Delivery</h2>
+              <i class="div-3-text-content">Delivery within <br/><b> 7 </b>working days*</i>
+            </div>
           </div>
         </div>
-        <div style="background-color: #FF6065; width:25%; padding-top:5%;" class="disable-on-phone">
-          <div style=" width: 66%; height: 32vw; margin:auto; "  > 
-            <img src="assets/res/order.png" style="height: 100%; width: 100%; border: 5px solid #f8c752; border-radius: 20px; filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5)); ">
+    </div>
+
+<!-- Div-3 for phone -->
+
+    <div class="div-3 disable-on-desktop">
+      <div class="disable-on-desktop div-3-head-1">
+        <div class="div-3-head-2">
+          <h1 class="div-3-heading"><b>WHY SHOPSY?</b></h1>
+        </div>
+      </div>
+      <div class="d-md-flex w-100 disable-on-desktop">
+        <div class="div-3-my-flex-container disable-on-desktop">
+          <div class="mx-auto div-3-img-container" >
+            <img src="why-shopsy-01.png" class="div-3-image" data-aos="flip-right">
           </div>
-          <div class="p-5" style="margin-top:8%;">
-            <h1 style="color:white; text-align:center; font-size:3vw; padding-bottom: 1vh; "><b>ORDER</b></h1>
-            <p style="color:white; text-align:center; font-size:1.3vw; line-height:1.5vw;">On behalf of the<br> customers</p>
+          <div class="mx-auto div-3-text">
+            <b class="div-3-text-heading">Wide Selection</b><br/>
+            <i class="div-3-text-content"> <b> 15 crore+ </b><br/> product listings</i>
           </div>
         </div>
-  
-        <div style="background-color: #FF6065; width:25%; padding-top:5%;" class="disable-on-phone">
-          <div style=" width: 66%; height: 32vw; margin:auto; "> 
-            <img src="assets/res/earn.png" style="height: 100%; width: 100%; border: 5px solid #f8c752; border-radius: 20px; filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5));">
+        <div class="div-3-my-flex-container disable-on-desktop">
+          <div class="mx-auto div-3-img-container"  >
+            <img src="why-shopsy-02.png" class="div-3-image" data-aos="flip-right">
           </div>
-          <div class="p-5" style="margin-top:8%;">
-            <h1 style="color:white; text-align:center; font-size:3vw; padding-bottom: 1vh; "><b>EARN</b></h1>
-            <p style="color:white; text-align:center; font-size:1.3vw; line-height:1.5vw;">Profit margins on sale<br> of every item</p>
+          <div class="mx-auto div-3-text" >
+            <b class="div-3-text-heading">Trusted Suppliers</b><br/>
+            <i class="div-3-text-content"> <b>1 Lakh+</b> trusted <br/>Flipkart suppliers</i>
+          </div>
+        </div>
+        <div class="div-3-background-gradient div-3-my-flex-container disable-on-desktop">
+          <div class="mx-auto div-3-img-container" >
+            <img src="why-shopsy-03.png" class="div-3-image" data-aos="flip-right">
+          </div>
+          <div class="mx-auto div-3-text">
+            <b class="div-3-text-heading">Reliable Delivery</b><br/>
+            <i class="div-3-text-content">Delivery within <br/><b> 7 </b>working days*</i>
           </div>
         </div>
       </div>
     </div>
 
-    <div style="background-color: #FF6065; padding-bottom: 50px; " class="disable-on-phone">
-      <div style=" width:60%; margin: auto; padding-bottom: 7vh; text-align: center;">
-        <button style="margin-top:0vh; margin-bottom:0vh; padding: 0.5vw 2vw; background-color: #FF6065; color:white; border: 2px solid white; border-radius: 0.5vw; font-size:1.6vw; opacity: 0.9;"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >GET SHOPSY</button>
-      </div>
-    </div> 
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div style=" width:100%; padding-top:1%;  background-color: #503CEB; border:1px solid #503CEB;  position:relative; overflow-x: hidden;" class="disable-on-desktop " >
-
-        
-        <div style="height:15vw; width:20vw; position:absolute; top:31%; left:82%; " data-aos="zoom-out-left" >
-          <img src="assets/res/browse-2.png" style="height:100%; width:100%;">
-        </div>
-        <div style="height:18vw; width:24vw; position:absolute; top:60%; right:85%; transform: rotate(-62.73deg);" data-aos="fade-right" >
-          <img src="assets/res/browse-1.png" style="height:100%; width:100%;">
-        </div>
-        <div style="height:36vw; width:42vw; position:absolute; top:80%; left:75%; transform: rotate(11.89deg);" data-aos="fade-down">
-          <img src="assets/res/browse-3.png" style="height:100%; width:100%;">
-        </div>
-
-        <div style="height:30%; margin:10%; ">
-          <h1 style="color:#F8C752; text-align:center; font-size:10vw "><b>BROWSE</b></h1>
-          <p style="color:white; text-align:center; font-size:4.5vw;">The largest selection of products<br> from most trusted suppliers.</p>
-        </div>
-        
-        <div style="margin-bottom: 10%;">
-          <div style=" width:60%; margin:auto; text-align: center; ">
-            <button style="font-size:5vw; margin-top:0px; margin-bottom:0px; background-color: transparent; color:white; border: 1px solid white; border-radius: 5px 5px 5px 5px; cursor: pointer"  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
-          </div>
-        </div>
-        <div style=" width: 65%; height: 60%; margin:auto; margin-bottom:10%; " data-aos="fade-down"> 
-          <img src="assets/res/browsing scroll.gif" style="height: 100%; width: 100%; border: 3px solid pink; border-radius: 30px 30px 30px 30px; filter: drop-shadow(10px 10px 10px black);">
-        </div>
-      </div>
-
-      <!-- -------------------------------------------------------------------------- -->
-
-
-      <div style="background-color: #FF6065; width:100%; padding-top:1%; border:0px solid #FF6065; position: relative; overflow-x: hidden;" class="disable-on-desktop">
-		
-		
-		<div style="height:15vw; width:15vw; position:absolute; top:27%; left:87%; " >
-          <img src="assets/res/share-2.png" style="height:100%; width:100%; filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25)); transform: rotate(-13.4deg);">
-        </div>
-        <div style="height:24vw; width:30vw; position:absolute; top:70%; right:80%; ">
-          <img src="assets/res/share-1.png" style="height:100%; width:100%; filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25)); transform: rotate(-11.89deg);">
-        </div>
-        <div style="height:13vw; width:13vw; position:absolute; top:90%; left:85%; ">
-          <img src="assets/res/share-3.png" style="height:100%; width:100%; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); transform: rotate(25.41deg);">
-        </div>
-		
-        <div style="height:30%; margin:10% ">
-          <h1 style="color:white; text-align:center; font-size:10vw "><b>SHARE</b></h1>
-          <p style="color:white; text-align:center; font-size:4.5vw;">On WhatsApp, Facebook,<br> Instagram, and more</p>
-        </div>
-        <div style="margin-bottom: 10%;">
-          <div style=" width:60%; margin:auto; text-align: center; ">
-            <button style="font-size:5vw; margin-top:0px; margin-bottom:0px; background-color: transparent; color:white; border: 1px solid white; border-radius: 5px 5px 5px 5px; cursor: pointer; "  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
-          </div>
-        </div>
-        <div style=" width: 65%; height: 60%; margin:auto; margin-bottom:10%;" data-aos="fade-down"> 
-          <img src="assets/res/shopsy share 2.gif" style="height: 100%; width: 100%; border: 3px solid pink; border-radius: 30px 30px 30px 30px; filter: drop-shadow(10px 10px 10px black);">
-        </div>
-      </div>
-
-    <!-- -------------------------------------------------------------------------- -->
-
-      <div style="background-color: #AD98FF; width:100%; padding-top:1%; border:0px solid #AD98FF; position: relative; overflow-x: hidden; " class="disable-on-desktop">
-	  
-		
-		<div style="height:25vw; width:20vw; position:absolute; top:50%; left:82%; " >
-          <img src="assets/res/order-2.png" style="height:100%; width:100%; transform: rotate(-10deg); mix-blend-mode: screen; ">
-        </div>
-        <div style="height:20vw; width:20vw; position:absolute; top:25%; right:80%; ">
-          <img src="order-1.PNG" style="height:100%; width:100%; ">
-        </div>
-        <div style="height:40vw; width:40vw; position:absolute; top:80%; right: 75%; ">
-          <img src="assets/res/order-3.png" style="height:100%; width:100%; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); transform: matrix(-1, 0, 0, 1, 0, 0);">
-        </div>
-		
-        <div style="height:30%; margin:10% ">
-          <h1 style="color:white; text-align:center; font-size:10vw "><b>ORDER</b></h1>
-          <p style="color:white; text-align:center; font-size:4.5vw;">On behalf of the<br> customers</p>
-        </div>
-        <div style="margin-bottom: 10%;">
-          <div style=" width:60%; margin:auto; text-align: center; ">
-            <button style="font-size:5vw; margin-top:0px; margin-bottom:0px; background-color: transparent; color:white; border: 1px solid white; border-radius: 5px 5px 5px 5px; cursor: pointer; "  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
-          </div>
-        </div>
-        <div style=" width: 65%; height: 60%; margin:auto; margin-bottom:10%;" data-aos="fade-down"> 
-          <img src="assets/res/order.png" style="height: 100%; width: 100%; border: 3px solid pink; border-radius: 30px 30px 30px 30px; filter: drop-shadow(10px 10px 10px black);">
-        </div>
-      </div>
-
-
-    <!-- -------------------------------------------------------------------------- --> 
-
-
-      <div style="background-color: #F8C752; width:100%; padding-top:1%; border:0px solid #F8C752; position: relative; overflow-x: hidden; " class="disable-on-desktop">
-		
-		
-		<div style="height:25vw; width:20vw; position:absolute; top:70%; left:85%; " >
-          <img src="assets/res/earn-2.png" style="height:100%; width:100%; mix-blend-mode: screen; ">
-        </div>
-        <div style="height:10vw; width:10vw; position:absolute; top:28%; left:80%; mix-blend-mode: screen;">
-          <img src="assets/res/earn-1.png" style="height:100%; width:100%; ">
-        </div>
-        <div style="height:15vw; width:15vw; position:absolute; top:50%; right: 85%; ">
-          <img src="assets/res/earn-3.png" style="height:100%; width:100%; mix-blend-mode: screen; ">
-        </div>
-		
-        <div style="height:30%; margin:10% ">
-          <h1 style="color: #503CEB ; text-align:center; font-size:10vw "><b>EARN</b></h1>
-          <p style="color:black; text-align:center; font-size:4.5vw;">Profit margins on sale of<br> every item</p>
-        </div>
-        <div style="margin-bottom: 10%;">
-          <div style=" width:60%; margin:auto; text-align: center; ">
-            <button style="font-size:5vw; margin-top:0px; margin-bottom:0px; background-color: transparent; color:black; border: 1px solid black; border-radius: 5px 5px 5px 5px; cursor: pointer; "  onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'">GET SHOPSY</button>
-          </div>
-        </div>
-        <div style=" width: 65%; height: 60%; margin:auto; margin-bottom:10%;" data-aos="fade-down"> 
-          <img src="assets/res/earn.png" style="height: 100%; width: 100%; border: 3px solid pink; border-radius: 30px 30px 30px 30px; filter: drop-shadow(10px 10px 10px black);">
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-
-    
-    
-<div style="background-color: #503CEB;">
-    <div style="background-color: #503CEB; padding: 60px;"  class="disable-on-phone" >
-      <div style=" width:80%; margin:auto; text-align: center;">
-        <h1 style="margin-top:0px; margin-bottom:0px; background-color: #503CEB; color:white"><b>WHY SHOPSY?</b></h1>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 disable-on-phone" style="background-color: #503CEB;">
-      <div style="background-color: #503CEB; padding-bottom: 35px; " class="text-center my-flex-container-2 disable-on-phone">
-        <div class="mx-auto " style=" width: 25%; height: 35%; margin-top:10%; padding:2% "> 
-          <img src="why-shopsy-01.png" style=" height: 100%; width: 100%; " data-aos="flip-right">
-        </div>
-        <div class="mx-auto" style=" width: 75%; height: 40%; margin-top:5%; ">
-          <h2 class="display-5" style="color:#F8C752">Wide Selection</h2>
-          <i class="lead" style="color:white"> <b class="display-6"> 15 crore+ </b><br/> product listings</i>
-        </div>
-      </div>
-
-      <div style="background-color: #503CEB; padding-bottom: 35px; " class="text-center my-flex-container-2 disable-on-phone">
-        <div class="mx-auto" style=" width: 25%; height: 35%; margin-top:10%;  padding-left:2%; " > 
-          <img src="why-shopsy-02.png" style=" height: 100%; width: 100%;" data-aos="flip-right">
-        </div>
-        <div class="mx-auto" style=" width: 75%; height: 40%; margin-top:5%; ">
-          <h2 class="display-5" style="color:#F8C752">Trusted Suppliers</h2>
-          <i class="lead" style="color:white"><b class="display-6">1 Lakh+</b> trusted <br/>Flipkart suppliers</i>
-        </div>
-      </div>
-
-      <div style="padding-bottom: 35px; " class="text-center my-flex-container-2 background-gradient disable-on-phone">
-        <div class="mx-auto" style=" width: 25%; height: 35%; margin-top:10%; padding:2%; "> 
-          <img src="why-shopsy-03.png" style=" height: 100%; width: 100%;" data-aos="flip-right">
-        </div>
-        <div class="mx-auto" style=" width: 75%; height: 40%; margin-top:5%; ">
-          <h2 class="display-5" style="color:#F8C752">Reliable Delivery</h2>
-          <i class="lead" style="color:white">Delivery within <br/><b class="display-6"> 7 </b>working days*</i>
-        </div>
-      </div>      
-    </div>
-
-</div>
-
-
-    <div style="background-color: #503CEB; padding: 15%; 30%;" class="disable-on-desktop">
-      <div style=" width:80%; margin:auto; text-align: center;">
-        <h1 style="margin-top:0px; margin-bottom:0px; background-color: #503CEB; font-size:8vw; color:white;"><b>WHY SHOPSY?</b></h1>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 disable-on-desktop" style="background-color: #503CEB;">
-
-
-      <div style="background-color: #503CEB;" class="text-center my-flex-container-2 disable-on-desktop">
-        <div class="mx-auto " style=" width: 40%; height: 30vh; padding:10% 0 15% 10% ;"> 
-          <img src="why-shopsy-01.png" style=" height: 30vw; width: 30vw; " data-aos="flip-right">
-        </div>
-        <div class="mx-auto" style=" width: 60%; height: 30vh; padding-top:10%; padding-left:0%;">
-          <b style="color:#F8C752; font-size:6vw;">Wide Selection</b><br/>
-          <i style="color:white"> <b> 15 crore+ </b><br/> product listings</i>
-        </div>
-      </div>
-
-      <div style="background-color: #503CEB; " class="text-center my-flex-container-2 disable-on-desktop">
-        <div class="mx-auto " style=" width: 40%; height: 30vh; padding:10% 0 15% 10% ; "> 
-          <img src="why-shopsy-02.png" style=" height: 30vw; width: 30vw; " data-aos="flip-right">
-        </div>
-        <div class="mx-auto" style=" width: 60%; height: 30vh; padding-top:10%; padding-left:0%;">
-          <b style="color:#F8C752; font-size:6vw;">Trusted Suppliers</b><br/>
-          <i style="color:white"> <b>1 Lakh+</b> trusted <br/>Flipkart suppliers</i>
-        </div>
-      </div>
-
-      <div style="background-color: #503CEB; " class="text-center my-flex-container-2 disable-on-desktop">
-        <div class="mx-auto " style=" width: 40%; height: 30vh; padding:10% 0 15% 10% ; "> 
-          <img src="why-shopsy-03.png" style=" height: 30vw; width: 30vw; " data-aos="flip-right">
-        </div>
-        <div class="mx-auto" style=" width: 60%; height: 30vh; padding-top:10%; padding-left:0%; ">
-          <b style="color:#F8C752; font-size:6vw;">Reliable Delivery</b><br/>
-          <i style="color:white">Delivery within <br/><b> 7 </b>working days*</i>
-        </div>
-      </div>
-
-       
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <div class="disable-on-phone" style="position: relative; top: 0px; left: 0px; height:37.5vw;">
-			<div style=" height:37.5vw;  border: 1px solid white; postion:relative;">
-        <p style="font-weight:bold; color:#503CEB; font-size:3vw; line-height:3.8vw; margin-top:8vw; margin-left:5vw; ">Start earning with <br>Shopsy today!</br> </p>
-        <button  class="download-now-blue" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" style="margin:1% 5%;" >
-          <img src="download-now-button.svg" style="height:100%; width:100%;">
+<!-- Div-4 for desktop -->
+
+    <div class="disable-on-phone div-4" >
+			<div class="div-4-container">
+        <p class="div-4-text-heading">Start earning with <br>Shopsy today!</br> </p>
+        <button  class="div-4-download-now" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >
+          <img src="download-now-button.svg" class="div-4-download-now-image">
         </button>
-        <div style="  margin-top:5%; margin-left:5vw; position: absolute; bottom: 20px; left: 0px;">
-          <p style="font-size:0.9vw;">
-            <a href="">Terms of Use</a> &nbsp &nbsp  &nbsp &nbsp  <a href="">Privacy Policy</a>
+        <div class="div-4-text-container">
+          <p>
+            <a href="" class="div-4-link">Terms of Use</a> &nbsp &nbsp  &nbsp &nbsp  <a href="" class="div-4-link">Privacy Policy</a>
           </p>
-          <p style="font-size:0.9vw;">
+          <p class="div-4-link">
             Contact Us: support@shopsy.in | 1800-309-9898
           </p>
         </div>
       </div>
-      <img src="last2.PNG" style="position: absolute; bottom: 0px; right: 0px; width: 52vw; height:37.5vw; border: 1px solid white">
-      
+      <img src="last2.PNG" class="div-4-image">
 		</div>
 
-
-
-
+<!-- Div-4 for phone -->
 
     <div class="disable-on-desktop">
-      <div style="text-align: center; height:90vw; padding:15% 10% 0 10%;">
-        <b style="font-size:11vw; line-height:12vw; color:#503CEB;">Start earning<br> with Shopsy<br> today!</br> </b>
-        <button  class="download-now-blue" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" style="margin:5%;" >
+      <div class="div-4-container">
+        <b class="div-4-text-heading">Start earning<br> with Shopsy<br> today!</br> </b>
+        <button  class="div-4-download-now" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.flipkart.shopsy'" >
           <img src="download-now-button.svg" style="height:100%; width:100%;">
         </button>
-        <p>
       </div>
-      <div style="background: linear-gradient( to bottom, #ffffff 0%, #ffffff 10%, #FF6065 10%, #FF6065 100%);">
-        <div style="width:100%;   ">
-          <img src="div-4-2.png " style="height:100%; width: 100%;">
+      <div class="div-4-main-container">
+        <div class="div-4-image-container">
+          <img src="div-4-2.png " class="div-4-image">
         </div>
-        <div style=" text-align: center; color:white; height:40vw; margin-top:5%">
-          <p style="font-size:4vw; opacity:0.7;">
-            <a href="" style="color:white;">Terms of Use</a> &nbsp &nbsp  &nbsp &nbsp  <a style="color:white;" href="">Privacy Policy</a>
+        <div class="div-4-text-container">
+          <p>
+            <a href="" class="div-4-link">Terms of Use</a> &nbsp &nbsp  &nbsp &nbsp  <a class="div-4-link" href="">Privacy Policy</a>
           </p>
-          <p style="color:white; font-size:4vw; opacity:0.7;">
+          <p class="div-4-link">
             Contact Us: support@shopsy.in | 1800-309-9898
           </p>
         </div>
       </div>
 		</div>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="jquery.aniview.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      console.log("HIIII");
       AOS.init();
-    </script>
-
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-
-
-
-      
-      // console.log("HIII")
-      // $('.aniview').AniView();
-      // console.log("HIIIIIIIIII")
-  // var options = {
-  //   animateThreshold: 100,
-  //   scrollPollInterval: 20
-  // }
-
-  // $('.aniview').AniView(options);
     </script>
   </body>
 </html>

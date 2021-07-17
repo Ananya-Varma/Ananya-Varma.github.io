@@ -1,0 +1,337 @@
+@media screen and (min-width:800px) {
+    .disable-on-desktop{
+        display: none;
+    }
+
+    .div-header{
+       background-color:#4f3be9;
+    }
+
+    .div-navbar {
+    	background-color: #503CEB;
+    	height: 15vh;
+    }
+
+
+    .div-navbar-get-it{
+  		float: right;
+  		margin-right:6vw;
+  		margin-top: 2.8vh;
+  		font-size: 3.2vh;
+  		border: 2px solid rgb(189, 181, 181);
+  		padding: 0.5vh 1.5vw;
+  		border-radius: 1vh;
+  		text-align: center;
+  		transition-duration: 0.4s;
+  		display: inline-block;
+  		cursor: pointer;
+  		background-color: transparent;
+  		color: white;
+  		opacity: 1;
+  	}
+
+    .div-navbar-logo{
+      margin-top:3vh;
+      margin-left:5vw;
+    }
+
+    .div-1-desktop-gradient {
+  		background: linear-gradient(0deg, rgba(255, 90, 95, 0.3), 25%, rgba(0, 0, 0, 0) 90%);
+  	}
+
+    .div-1{
+      height:85vh;
+      padding: 8% 10%;
+    }
+
+    .div-1-text{
+       width:50%;
+       float:left;
+       height:100%;
+       padding:1% 5%;
+    }
+
+    .div-1-start-text{
+    		color: white;
+    		font-weight: 600;
+    		font-size: 4vw;
+    		line-height:4vw;
+    }
+
+    .div-1-first-list {
+  		text-align: left;
+  		color: white;
+  		font-size: 1.5vw;
+  	}
+
+    .div-1-download-now-button {
+    	background-color: transparent;
+    	border: none;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+    	padding: 0vw 0vw;
+      margin:1% 0;
+    }
+
+    .div-1-download-now-image{
+      height:100%;
+      width:100%;
+    }
+
+    .div-1-video-div{
+       background-color:transparent;
+       width:50%;
+       float:right;
+       height:100%;
+       padding: 2vw 1vw;
+    }
+
+    .div-1-video{
+      height: 19.6875vw;
+      width: 35vw;
+      border-style: transparent;
+      height: 19.6875vw;
+      border-style: transparent;
+      border-radius: 30px 30px 30px 30px;
+    }
+
+    .div-2{
+      background-color:#ff6065;
+    }
+
+    .div-2-top{
+      width:100%;
+      display:flex;
+    }
+
+    .div-2-container{
+      background-color: #FF6065;
+      width:25%;
+      padding-top:5%;
+    }
+
+    .div-2-container-image-container{
+      width: 66%;
+      height: 32vw;
+      margin:auto;
+    }
+
+    .div-2-container-image{
+      height: 100%;
+      width: 100%;
+      border: 5px solid #f8c752;
+      border-radius: 20px;
+      filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5));
+    }
+
+    .div-2-text{
+      margin-top:8%;
+    }
+
+    .div-2-text-heading{
+      color:white;
+      text-align:center;
+      font-size:3vw;
+      padding-bottom: 1vh;
+    }
+
+    .div-2-text-content{
+      color:white;
+      text-align:center;
+      font-size:1.3vw;
+      line-height:1.5vw;
+    }
+
+    .div-2-bottom{
+      background-color: #FF6065;
+      padding-bottom: 50px;
+    }
+
+    .div-2-bottom-container{
+      width:60%;
+      margin: auto;
+      padding-bottom: 7vh;
+      text-align: center;
+    }
+
+    .div-2-bottom-button{
+      margin-top:0vh;
+      margin-bottom:0vh;
+      padding: 0.5vw 2vw;
+      background-color: #FF6065;
+      color:white;
+      border: 2px solid white;
+      border-radius: 0.5vw;
+      font-size:1.6vw;
+      opacity: 0.9;
+    }
+
+    .div-3{
+      background-color: #503CEB;
+      margin: 0 auto;
+      padding-top: 5vw;
+    }
+
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      -webkit-box-flex: 1;
+      flex: 1;
+    }
+
+    .div-3-heading-container{
+      width:80%;
+      margin:auto;
+      text-align: center;
+    }
+
+    .div-3-heading{
+      margin-top:0px;
+      margin-bottom:0px;
+      background-color: #503CEB;
+      color:white;
+    }
+
+
+
+    .div-3-img-container-1{
+       width: 27%;
+       height: 40%;
+       margin-top:10%;
+       margin-left: 16vw;
+    }
+
+    .div-3-image-1{
+      height: 100%;
+      width: 100%;
+      padding-top: 2vw;
+    }
+
+    .div-3-text-container-1{
+       width: 75%;
+       height: 40%;
+       margin-top:5%;
+       margin-left: 8vw;
+       padding-bottom: 5vw;
+    }
+
+    .div-3-text-heading{
+      color:#F8C752;
+      font-size: 2.2vw;
+      font-weight:bold;
+      padding-top: 2vw;
+      padding-bottom: 0.3vw;
+    }
+
+    .div-3-text-content{
+      color:white;
+      font-size: 1.7vw;
+      line-height: 120%
+    }
+
+    .div-3-img-container-2{
+      width: 25%;
+      height: 40%;
+      margin-top:10%;
+      margin-left: 11vw;
+    }
+
+    .div-3-image-2{
+      height: 100%;
+      width: 100%;
+      padding-top: 3vw;
+      margin-left: 1vw;
+    }
+
+    .div-3-text-container-2{
+      width: 75%;
+      height: 40%;
+      margin-top:5%;
+      margin-left: 3vw;
+      padding-bottom: 5vw;
+    }
+
+    .div-3-img-container-3{
+      width: 25%;
+      height: 40%;
+      margin-top:10%;
+      margin-left: 8vw;
+
+    }
+
+    .div-3-image-3{
+       height: 100%;
+       width: 100%;
+       padding-top: 5vw;
+       padding-bottom: 0.5vw;
+    }
+
+    .div-3-text-container-3{
+       width: 75%;
+       height: 40%;
+       margin-top:5%;
+       margin-right: 8vw;
+       padding-bottom: 5vw;
+    }
+
+    .div-4{
+      position: relative;
+      top: 0px;
+      left: 0px;
+      height:37.5vw;
+    }
+
+    .div-4-container{
+      height:37.5vw;
+      border: 1px solid white;
+      position:relative;
+    }
+
+    .div-4-text-heading{
+      font-weight:bold;
+      color:#503CEB;
+      font-size:3vw;
+      line-height:3.8vw;
+      margin-top:8vw;
+      margin-left:5vw;
+    }
+
+    .div-4-download-now {
+    	background-color: transparent;
+    	border: 0.2vw solid white;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+    	margin-top: 2vw;
+    	padding: 0vw 0vw;
+    	margin-left: 5vw;
+      margin:1% 5%;
+    }
+
+    .div-4-download-now-image{
+      height:100%;
+      width:100%;
+    }
+
+    .div-4-text-container{
+      margin-top:5%;
+      margin-left:5vw;
+      position: absolute;
+      bottom: 20px;
+      left: 0px;
+    }
+
+    .div-4-link{
+      color:#503CEB;
+      opacity:0.8;
+      font-size:0.9vw;
+    }
+
+    .div-4-image{
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 52vw;
+      height:37.5vw;
+      border: 1px solid white;
+    }
+
+}
