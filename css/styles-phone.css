@@ -200,9 +200,9 @@
     .div-2-1-image{
       height: 100%;
       width: 100%;
-      border: 3px solid pink;
-      border-radius: 30px 30px 30px 30px;
-      filter: drop-shadow(10px 10px 10px black);
+      border: 1.3vw solid #FF6065;
+      border-radius: 5vw;
+      filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5));
     }
 
     .div-2-2{
@@ -285,9 +285,9 @@
     .div-2-2-image{
       height: 100%;
       width: 100%;
-      border: 3px solid pink;
-      border-radius: 30px 30px 30px 30px;
-      filter: drop-shadow(10px 10px 10px black);
+      border: 1.3vw solid #F8C752;
+      border-radius: 5vw;
+      filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5));
     }
 
     .div-2-3{
@@ -368,9 +368,9 @@
     .div-2-3-image{
       height: 100%;
       width: 100%;
-      border: 3px solid pink;
-      border-radius: 30px 30px 30px 30px;
-      filter: drop-shadow(10px 10px 10px black);
+      border: 1.3vw solid #F8C752;
+      border-radius: 5vw;
+      filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5));
     }
 
     .div-2-4{
@@ -450,9 +450,9 @@
     .div-2-4-image{
       height: 100%;
       width: 100%;
-      border: 3px solid pink;
-      border-radius: 30px 30px 30px 30px;
-      filter: drop-shadow(10px 10px 10px black);
+      border: 1.3vw solid #FF6065;
+      border-radius: 5vw;
+      filter: drop-shadow(7px 7px 7px rgba(24, 48, 63, 0.5));
     }
 
     .div-3{

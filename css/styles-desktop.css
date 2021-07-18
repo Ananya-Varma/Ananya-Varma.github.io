@@ -1,4 +1,5 @@
 @media screen and (min-width:800px) {
+	
     .disable-on-desktop{
         display: none;
     }
@@ -89,7 +90,6 @@
     }
 
     .div-1-video{
-	  /*20.8125vw;*/
 	  height: 22.5vw;
       width: 40vw;
       border-style: transparent;
@@ -279,7 +279,10 @@
       position: relative;
       top: 0px;
       left: 0px;
-      height:37.5vw;
+	  margin-top: 5vw;
+	  overflow-x: hidden;
+	  overflow-y: hidden;
+	
     }
 
     .div-4-container{
@@ -291,9 +294,9 @@
     .div-4-text-heading{
       font-weight:bold;
       color:#503CEB;
-      font-size:3vw;
-      line-height:3.8vw;
-      margin-top:8vw;
+      font-size:3.5vw;
+      line-height:3.7vw;
+      margin-top:5vw;
       margin-left:5vw;
     }
 
@@ -305,7 +308,7 @@
     	margin-top: 2vw;
     	padding: 0vw 0vw;
     	margin-left: 5vw;
-      margin:1% 5%;
+		margin:1% 5%;
     }
 
     .div-4-download-now-image{
@@ -329,11 +332,22 @@
 
     .div-4-image{
       position: absolute;
-      bottom: 0px;
-      right: 0px;
-      width: 52vw;
-      height:37.5vw;
-      border: 1px solid white;
+      bottom: 0.75vw;
+      left: 69vw;
+      width: 21.5vw;
+      height: 35vw;
+	  transform: rotate(26deg);
+      border: 1px solid transparent;
     }
+	
+	.div-4-circle{
+		position: absolute;
+		top: 13vw;
+		left: 53.5vw;
+		width: 47vw;
+		height: 45vw;
+		background-color: #F8C752;
+		border-radius: 60%;
+	}
 
 }
