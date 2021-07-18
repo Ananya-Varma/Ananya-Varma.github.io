@@ -98,8 +98,8 @@
   	}
 
     .div-1-video-div{
-       height:45vw;
-       width:80vw;
+       height:49.5vw;
+       width:88vw;
        background-color:transparent;
        margin-bottom:15vh;
        margin:auto
@@ -108,9 +108,9 @@
     .div-1-video{
       height: 100%;
       width: 100%;
-      border: 3px solid pink;
+      border: 3px solid transparent;
       border-radius: 5vw 5vw 5vw 5vw;
-      filter: drop-shadow(10px 10px 10px black);
+      /*filter: drop-shadow(10px 10px 10px black);*/
     }
 
     .div-2-1{
@@ -154,7 +154,7 @@
 
     .div-2-text{
       height:30%;
-      margin:10%;
+      margin:10% 0%;
     }
 
     .div-2-1-text-heading{
@@ -166,7 +166,7 @@
     .div-2-1-text-content{
       color:white;
       text-align:center;
-      font-size:4.5vw;
+      font-size:6vw;
     }
 
     .div-2-button-container-1{
@@ -268,7 +268,7 @@
     .div-2-2-text-content{
       color:white;
       text-align:center;
-      font-size:4.5vw;
+      font-size:6vw;
     }
 
     .div-2-2-button{
@@ -351,7 +351,7 @@
     .div-2-3-text-content{
       color:white;
       text-align:center;
-      font-size:4.5vw;
+      font-size:6vw;
     }
 
     .div-2-3-button{
@@ -433,7 +433,7 @@
     .div-2-4-text-content{
       color:black;
       text-align:center;
-      font-size:4.5vw;
+      font-size:6vw;
     }
 
     .div-2-4-button{

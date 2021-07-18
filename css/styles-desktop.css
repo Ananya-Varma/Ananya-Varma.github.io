@@ -70,7 +70,7 @@
     	transition-duration: 0.4s;
     	cursor: pointer;
     	padding: 0vw 0vw;
-      margin:1% 0;
+		margin:1% 0;
     }
 
     .div-1-download-now-image{
@@ -91,7 +91,7 @@
       width: 35vw;
       border-style: transparent;
       height: 19.6875vw;
-      border-style: transparent;
+      border: 1px solid transparent;
       border-radius: 30px 30px 30px 30px;
     }
 
