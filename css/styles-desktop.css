@@ -41,27 +41,29 @@
 
     .div-1{
       height:85vh;
-      padding: 8% 10%;
+      padding-left:10%;
+	  padding-right:10%;
+	  padding-top:10%;
     }
 
     .div-1-text{
        width:50%;
        float:left;
        height:100%;
-       padding:1% 5%;
+       padding:1% 0%;
     }
 
     .div-1-start-text{
     		color: white;
     		font-weight: 600;
-    		font-size: 4vw;
-    		line-height:4vw;
+    		font-size: 4.5vw;
+    		line-height:5vw;
     }
 
     .div-1-first-list {
   		text-align: left;
   		color: white;
-  		font-size: 1.5vw;
+  		font-size: 1.7vw;
   	}
 
     .div-1-download-now-button {
@@ -70,7 +72,7 @@
     	transition-duration: 0.4s;
     	cursor: pointer;
     	padding: 0vw 0vw;
-		margin:1% 0;
+		margin:3% 0;
     }
 
     .div-1-download-now-image{
@@ -87,10 +89,10 @@
     }
 
     .div-1-video{
-      height: 19.6875vw;
-      width: 35vw;
+	  /*20.8125vw;*/
+	  height: 22.5vw;
+      width: 40vw;
       border-style: transparent;
-      height: 19.6875vw;
       border: 1px solid transparent;
       border-radius: 30px 30px 30px 30px;
     }
